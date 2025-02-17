@@ -11,7 +11,13 @@ app.secret_key = "mongoniITF_club"
 def index():
    return render_template('frontEnd/index-mp-layout1.html')
 
-    
+##
+# 
+# gallery 
+# 
+@app.route('/gallery') 
+def gallery():
+    return render_template('frontEnd/page-gallery-3col.html')  
     
 
 if __name__ == '__main__':
